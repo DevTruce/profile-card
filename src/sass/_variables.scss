@@ -1,0 +1,33 @@
+//////////////////////////////////////////////////
+// COLORS
+$color-white: rgba(255, 255, 255, 1);
+$color-black: rgba(0, 0, 0, 1);
+$color-dark-grey: rgb(150, 150, 150);
+
+$color-cyan: rgb(25, 162, 174);
+$color-grayish-blue: rgb(106, 111, 129);
+$color-dark-blue: rgb(45, 50, 72);
+
+//////////////////////////////////////////////////
+// FONTS
+$font-small: 1rem;
+$font-medium: 1.4rem;
+$font-large: 1.8rem;
+
+//////////////////////////////////////////////////
+// MEDIA QUERY MANAGER
+@mixin respond($breakpoint) {
+  @if $breakpoint == small-phone {
+    @media only screen and (max-width: 20em) {
+      // 320px
+      @content;
+    }
+  }
+
+  @if $breakpoint == phone {
+    @media only screen and (max-width: 25em) {
+      // 400px
+      @content;
+    }
+  }
+}
