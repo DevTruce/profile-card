@@ -63,7 +63,6 @@
 ## About The Project
 
 [![Product Name Screen Shot][product-screenshot]](product-link)
-I had a lot of fun with this frontend mentor challenge! I think I did well but I struggled to complete the background style, I could not figure out how to correctly place it without the page growing and force adding scoll bars
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
