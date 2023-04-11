@@ -36,8 +36,8 @@ body {
 }
 
 .card {
-  width: 37.4rem;
-  border-radius: 2rem;
+  width: 37rem;
+  border-radius: 1.25rem;
   background-color: rgb(255, 255, 255);
   grid-column: 2/3;
   display: grid;
@@ -49,7 +49,7 @@ body {
 .card__header {
   width: 100%;
   height: 140px;
-  border-radius: 2rem 2rem 0 0;
+  border-radius: 1.25rem 1.25rem 0 0;
   background-image: url(../imgs/bg-pattern-card.svg);
   background-size: cover;
   background-position: 100%;
@@ -68,7 +68,7 @@ body {
 }
 .card__user {
   text-align: center;
-  padding: 7rem 0 3rem 0;
+  padding: 7.5rem 0 3rem 0;
 }
 .card__user-heading {
   padding: 0 5rem;
@@ -79,6 +79,7 @@ body {
   font-size: 1.8rem;
   font-weight: 400;
   color: rgb(106, 111, 129);
+  margin-left: 0.5rem;
 }
 .card__user-location {
   color: rgb(106, 111, 129);
@@ -93,7 +94,7 @@ body {
   justify-content: space-evenly;
   align-items: center;
   width: 100%;
-  padding: 2rem 0 3rem 0;
+  padding: 2rem 0;
 }
 .card__footer-stat {
   text-align: center;
@@ -107,6 +108,7 @@ body {
   font-weight: 400;
   margin-top: 0.5rem;
   font-size: 1rem;
+  letter-spacing: 0.25rem;
 }
 
 /*# sourceMappingURL=style.comp.css.map */
