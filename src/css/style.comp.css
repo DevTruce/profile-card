@@ -111,4 +111,23 @@ body {
   letter-spacing: 0.25rem;
 }
 
+.footer {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  padding: 3rem;
+  color: rgb(45, 50, 72);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.link:link, .link:visited {
+  color: rgb(45, 50, 72);
+  text-decoration: none;
+}
+.link:hover, .link:focus {
+  text-decoration: underline;
+}
+
 /*# sourceMappingURL=style.comp.css.map */
