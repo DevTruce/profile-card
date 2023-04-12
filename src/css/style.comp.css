@@ -55,7 +55,7 @@ body {
   background-position: 100%;
   position: relative;
 }
-.card__header img {
+.card__header-img {
   display: block;
   border-radius: 50%;
   border: 5px solid rgb(255, 255, 255);
@@ -65,6 +65,9 @@ body {
   top: 100%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+.card__header-img img {
+  border-radius: 50%;
 }
 .card__user {
   text-align: center;

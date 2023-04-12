@@ -26,7 +26,7 @@
 
     position: relative;
 
-    img {
+    &-img {
       display: block;
       border-radius: 50%;
       border: 5px solid $color-white;
@@ -37,6 +37,9 @@
       top: 100%;
       left: 50%;
       transform: translate(-50%, -50%);
+      img {
+        border-radius: 50%;
+      }
     }
   }
 
