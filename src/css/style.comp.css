@@ -58,7 +58,7 @@ body {
 .card__header img {
   display: block;
   border-radius: 50%;
-  outline: 5px solid rgb(255, 255, 255);
+  border: 5px solid rgb(255, 255, 255);
   height: 9.6rem;
   width: 9.6rem;
   position: absolute;
