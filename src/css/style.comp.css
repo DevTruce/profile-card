@@ -65,14 +65,16 @@ body {
   top: 100%;
   left: 50%;
   transform: translate(-50%, -50%);
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 .card__header-img img {
+  display: block;
   border-radius: 50%;
-  width: 100%;
+  outline: 5px solid rgb(255, 255, 255);
   height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0%;
+  left: 0%;
 }
 .card__user {
   text-align: center;
