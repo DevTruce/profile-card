@@ -1,0 +1,42 @@
+//////////////////////////////////////////////////
+// RESET
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%; // 1rem = 10px
+  box-sizing: inherit;
+
+  @include respond(phone) {
+    font-size: 50%;
+  }
+
+  @include respond(small-phone) {
+    font-size: 45%;
+  }
+}
+
+body {
+  min-height: 100vh;
+  box-sizing: border-box;
+
+  font-size: $font-large;
+  font-weight: 700;
+  font-family: "Kumbh Sans";
+
+  background-color: $color-cyan;
+
+  // setting the grid
+  display: grid;
+  grid-template-columns: 0.5fr 4fr 0.5fr;
+  grid-template-rows: 1fr min-content;
+  align-items: center;
+  justify-items: center;
+}
+
+//////////////////////////////////////////////////
+// TYPOGRAPHY
