@@ -1,6 +1,42 @@
+// .bg {
+//   &-image {
+//     position: absolute;
+//     background-repeat: no-repeat;
+//     background-size: cover;
+
+//     &-top {
+//       top: -50%;
+//       left: 0;
+//     }
+
+//     &-bottom {
+//       bottom: -50%;
+//       right: 0;
+//     }
+//   }
+// }
+
+.bg-image {
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: -1;
+}
+
+.bg-image-top {
+  top: -50rem;
+  left: -30rem;
+}
+
+.bg-image-bottom {
+  bottom: -50rem;
+  right: -30rem;
+}
+
 .card {
-  width: 37rem;
+  width: 35rem;
   border-radius: 1.25rem;
+  // box-shadow: 10px 10px;
 
   background-color: $color-white;
 
@@ -83,7 +119,7 @@
     justify-content: space-evenly;
     align-items: center;
     width: 100%;
-    padding: 2rem 0;
+    padding: 3rem 0;
 
     &-stat {
       text-align: center;
@@ -101,29 +137,5 @@
         letter-spacing: 0.25rem;
       }
     }
-  }
-}
-
-.footer {
-  grid-column: 2 / 3;
-  grid-row: 2 / 3;
-  padding: 3rem;
-  color: $color-dark-blue;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.link {
-  &:link,
-  &:visited {
-    color: $color-dark-blue;
-    text-decoration: none;
-  }
-
-  &:hover,
-  &:focus {
-    text-decoration: underline;
   }
 }
