@@ -35,8 +35,25 @@ body {
   justify-items: center;
 }
 
+.bg-image {
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: -1;
+}
+
+.bg-image-top {
+  top: -50rem;
+  left: -30rem;
+}
+
+.bg-image-bottom {
+  bottom: -50rem;
+  right: -30rem;
+}
+
 .card {
-  width: 37rem;
+  width: 35rem;
   border-radius: 1.25rem;
   background-color: rgb(255, 255, 255);
   grid-column: 2/3;
@@ -103,7 +120,7 @@ body {
   justify-content: space-evenly;
   align-items: center;
   width: 100%;
-  padding: 2rem 0;
+  padding: 3rem 0;
 }
 .card__footer-stat {
   text-align: center;
@@ -118,25 +135,6 @@ body {
   margin-top: 0.5rem;
   font-size: 1rem;
   letter-spacing: 0.25rem;
-}
-
-.footer {
-  grid-column: 2/3;
-  grid-row: 2/3;
-  padding: 3rem;
-  color: rgb(45, 50, 72);
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.link:link, .link:visited {
-  color: rgb(45, 50, 72);
-  text-decoration: none;
-}
-.link:hover, .link:focus {
-  text-decoration: underline;
 }
 
 /*# sourceMappingURL=style.comp.css.map */
