@@ -18,7 +18,7 @@
 <h3 align="center">Profile Card</h3>
 
   <p align="center">
-    completed frontend mentor challenge
+    A minimal and responsive user profile card.
     <br />
     <br />
     <a href="https://devtruce.github.io/profile-card/" target="_blank">View Demo</a>
